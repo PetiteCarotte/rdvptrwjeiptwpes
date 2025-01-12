@@ -1,28 +1,47 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  header {
-    background: #007acc;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-  }
-  
-  main {
-    padding: 2rem;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #007acc;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+footer a {
+  font-size: 36px;
+  margin-right: 20px;
+  /* Espacement entre les icônes */
+  text-decoration: none;
+  /* Supprime le soulignement */
+  color: inherit;
+  /* Assure que la couleur du texte est la même que celle de son parent */
+}
+
+footer a:hover {
+  text-decoration: none;
+  /* Supprime le soulignement lors du survol */
+}
+
+footer a:last-child {
+  margin-right: 0;
+  /* Retire l'espacement à droite du dernier lien */
+}
