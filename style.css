@@ -34,6 +34,7 @@ footer a {
   /* Supprime le soulignement */
   color: inherit;
   /* Assure que la couleur du texte est la même que celle de son parent */
+  font-family: Arial, sans-serif;
 }
 
 footer a:hover {
