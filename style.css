@@ -1,4 +1,223 @@
 body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.8; 
+}
+
+
+header {
+  text-align: center;
+  padding: 0px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+header nav h1{
+  font-family: 'Playfair Display', serif;
+  border: 1px solid #333;
+  border-radius: 30px;
+  padding: 0px 5px;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+main h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main .date {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+
+main article .first-letter::first-letter {
+  font-size: 57px;
+  font-weight: bold;
+  float: left;
+  margin-right: 8px;
+  line-height: 1;
+}
+
+main img {
+  max-width: 100%;
+  margin: 20px 0;
+  display: block;
+}
+
+main blockquote {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 3px solid #ddd;
+  color: #555;
+}
+
+
+
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer i {
+  margin-right: 5px;
+}
+/*
+header.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007acc;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+header.banner h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header.banner nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header.banner nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+header.banner nav select {
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+header.banner nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.article-title h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 3rem;  
+  text-align: left;
+  margin: 2rem 0;
+  color: #222;
+  line-height: 1;  
+}
+
+
+.article-image img {
+  max-width: 100%; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+article h3, article h4 {
+  font-family: 'Merriweather', serif; 
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #555;
+}
+
+article p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+aside {
+  margin-top: 3rem;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer i {
+  margin-right: 5px;
+}
+
+/**
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -29,20 +248,15 @@ footer {
 footer a {
   font-size: 36px;
   margin-right: 20px;
-  /* Espacement entre les icônes */
   text-decoration: none;
-  /* Supprime le soulignement */
   color: inherit;
-  /* Assure que la couleur du texte est la même que celle de son parent */
   font-family: Arial, sans-serif;
 }
 
 footer a:hover {
   text-decoration: none;
-  /* Supprime le soulignement lors du survol */
 }
 
 footer a:last-child {
   margin-right: 0;
-  /* Retire l'espacement à droite du dernier lien */
-}
+}**/
