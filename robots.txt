@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tonsite.netlify.app/sitemap.xml
+Sitemap: https://petc0870.netlify.app/sitemap.xml
