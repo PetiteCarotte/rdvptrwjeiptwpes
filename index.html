@@ -53,21 +53,23 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </noscript>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap">
+    </noscript>
 
 </head>
 
 <body>
     <header class="banner">
         <nav>
-            <a href="#home">Home</a>
-            <a href="#contact">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
             <h1>RDVPTRWJEIPTWPES</h1>
             <a href="#log">Changelog</a>
             <div class="language-selector">
-                <label for="language-selector">Language:</label>
+                <label for="language-selector" style="color: white;">:</label>
                 <select id="language-selector" onchange="changeLanguage(this.value)">
                     <option value="fr">Français</option>
                     <option value="en" selected>English</option>

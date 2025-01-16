@@ -1,3 +1,10 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -26,8 +33,6 @@ header nav a {
   font-weight: 500;
   font-size: 14px;
   margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 header nav .language-selector{
@@ -36,8 +41,6 @@ header nav .language-selector{
   font-weight: 500;
   font-size: 14px;
   margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 header nav h1{
@@ -51,6 +54,7 @@ main {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
+  flex: 1;
 }
 
 main h2 {
