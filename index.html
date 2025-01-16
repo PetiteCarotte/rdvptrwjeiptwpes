@@ -47,7 +47,12 @@
 
     <link rel="canonical" href="https://petc0870.netlify.app/">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </noscript>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
@@ -62,7 +67,7 @@
             <h1>RDVPTRWJEIPTWPES</h1>
             <a href="#log">Changelog</a>
             <div class="language-selector">
-                <label for="language-selector"></label>
+                <label for="language-selector">Language:</label>
                 <select id="language-selector" onchange="changeLanguage(this.value)">
                     <option value="fr">Français</option>
                     <option value="en" selected>English</option>
