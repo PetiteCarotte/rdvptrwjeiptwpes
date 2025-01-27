@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backlincks - rdvptrwjeiptwpes</title>
-    <meta name="description" content="Backlincks pour en savoir plus sur rdvptrwjeiptwpes.">
+    <title>Changelog - rdvptrwjeiptwpes</title>
+    <meta name="description" content="Changelog to follow the evolution of rdvptrwjeiptwpes.">
     <link rel="stylesheet" href="../style.css">
 
     <!-- Font Awesome for Icons -->
@@ -23,15 +23,15 @@
 <body>
     <header class="banner">
         <nav>
-            <a href="index.html">Accueil</a>
-            <a href="contact.html" class="active">Backlincks</a>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Backlincks</a>
             <h1>RDVPTRWJEIPTWPES</h1>
-            <a href="changelog.html">Changelog</a>
+            <a href="changelog.html" class="active">Changelog</a>
             <div class="language-selector">
                 <label for="language-selector" style="color: white;">:</label>
                 <select id="language-selector" onchange="changeLanguage(this.value)">
-                    <option value="fr" selected>Français</option>
-                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="en" selected>English</option>
                 </select>
             </div>
         </nav>
@@ -39,22 +39,34 @@
 
     <main>
         <div class="container">
-            <h3>Découvrez le nouveau jeu 'rdvptrwjeiptwpes' en cliquant <a href="https://fonn5385.netlify.app/">ici</a>.</h3>
-            <p>Tout le monde s'arrache ce tout nouveau jeu de cartes !!!</p>
-            <p>Son originalité vous captivera sans aucun doute !</p>
-            <p>Combinant la stratégie et l'art du bluff, ce jeu de cartes est parfait pour les soirées entre amis ou en famille.</p>
-            <p>Apprenez en plus sur ce jeu en cliquant sur le lien : <a href="https://fonn5385.netlify.app/">https://fonn5385.netlify.app/</a></p>
+            <div class="container">
+                <h2>Changelog</h2>
+                <li>2025-01-12: Creation of the homepage</li>
+                <li>2025-01-12: Added CSS style and favicon</li>
+                <li>2025-01-12: Added robots.txt</li>
+                <li>2025-01-12: Added social networks in the footer</li>
+                <li>2025-01-12: Added sitemap.xml</li>
+                <li>2025-01-15: Modified page content</li>
+                <li>2025-01-12: Added English/French translation</li>
+                <li>2025-01-16: Modified meta data (canonical tag, hreflang links, Open Graph, JSON-LD)</li>
+                <li>2025-01-16: Modified title and description tags to better highlight the keyword</li>
+                <li>2025-01-26: Added Backlinks and Changelogs pages</li>
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="footer-content">
-            <p>Créé par Caroline PETIT - petc0870</p>
-            <p>Dernière modification : <time datetime="2025-01-12">26 janvier 2025</time></p>
+            <p>Created by Caroline PETIT - petc0870</p>
+            <p>Last updated: <time datetime="2025-01-12">January 26, 2025 ©</time></p>
+
+            <!-- Instagram link -->
             <a href="https://www.instagram.com/caroline9559/" target="_blank">
                 <i class="fab fa-instagram" style="color:rgb(255, 255, 255)"> Instagram</i>
             </a>
-             <a href="https://www.linkedin.com/in/caroline-petit-9b2709296/" target="_blank">
+
+            <!-- LinkedIn link -->
+            <a href="https://www.linkedin.com/in/caroline-petit-9b2709296/" target="_blank">
                 <i class="fab fa-linkedin" style="color:rgb(255, 255, 255)"> LinkedIn</i>
             </a>
         </div>
@@ -63,9 +75,9 @@
     <script>
         function changeLanguage(lang) {
             if (lang === 'fr') {
-                window.location.href = '/fr/contact.html'; // Redirection vers la version française
+                window.location.href = '/fr/changelog.html'; // Redirection vers la version française
             } else if (lang === 'en') {
-                window.location.href = '/contact.html'; // Redirection vers la version anglaise
+                window.location.href = '/changelog.html'; // Redirection vers la version anglaise
             }
         }
     </script>

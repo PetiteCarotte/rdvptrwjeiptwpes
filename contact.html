@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - rdvptrwjeiptwpes</title>
-    <meta name="description" content="Contact us to learn more about rdvptrwjeiptwpes.">
+    <title>Backlincks - rdvptrwjeiptwpes</title>
+    <meta name="description" content="Backlincks to learn more about rdvptrwjeiptwpes.">
     <link rel="stylesheet" href="../style.css">
 
     <!-- Font Awesome for Icons -->
@@ -24,22 +24,33 @@
     <header class="banner">
         <nav>
             <a href="index.html">Home</a>
-            <a href="contact.html" class="active">Contact</a>
+            <a href="contact.html" class="active">Backlincks</a>
             <h1>RDVPTRWJEIPTWPES</h1>
-            <a href="#log">Changelog</a>
+            <a href="changelog.html">Changelog</a>
+            <div class="language-selector">
+                <label for="language-selector" style="color: white;">:</label>
+                <select id="language-selector" onchange="changeLanguage(this.value)">
+                    <option value="fr">Français</option>
+                    <option value="en" selected>English</option>
+                </select>
+            </div>
         </nav>
     </header>
 
     <main>
         <div class="container">
-            <h2>Contact Us</h2>
+            <h3>Discover the new game 'rdvptrwjeiptwpes' by clicking <a href="https://fonn5385.netlify.app/">here</a>.</h3>
+            <p>Everyone is raving about this brand new card game!!!</p>
+            <p>Its originality will undoubtedly captivate you!</p>
+            <p>Combining strategy and the art of bluffing, this card game is perfect for evenings with friends or family.</p>
+            <p>Learn more about this game by clicking on the link: <a href="https://fonn5385.netlify.app/">https://fonn5385.netlify.app/</a></p>
         </div>
     </main>
 
     <footer>
         <div class="footer-content">
             <p>Created by Caroline PETIT - petc0870</p>
-            <p>Last modified: <time datetime="2025-01-12">January 12, 2025</time></p>
+            <p>Last modified: <time datetime="2025-01-12">January 26, 2025</time></p>
             <a href="https://www.instagram.com/caroline9559/" target="_blank">
                 <i class="fab fa-instagram" style="color:rgb(255, 255, 255)"> Instagram</i>
             </a>
@@ -48,5 +59,17 @@
             </a>
         </div>
     </footer>
+
+    <script>
+        function changeLanguage(lang) {
+            if (lang === 'fr') {
+                window.location.href = '/fr/contact.html'; // Redirection vers la version française
+            } else if (lang === 'en') {
+                window.location.href = '/contact.html'; // Redirection vers la version anglaise
+            }
+        }
+    </script>
+
 </body>
 </html>
+
