@@ -1,7 +1,7 @@
 
-  # Luxury Car Landing Page
+  # Ford Mustang Evolution
 
-  This is a code bundle for Luxury Car Landing Page. The original project is available at https://www.figma.com/design/FTIIRylDy7v3eXPiMbGj9K/Luxury-Car-Landing-Page.
+  This is a code bundle for Ford Mustang Evolution.
 
   ## Running the code
 
