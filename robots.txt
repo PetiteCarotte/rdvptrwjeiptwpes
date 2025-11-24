@@ -1,5 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://petc0870.netlify.app/sitemap.xml
-
